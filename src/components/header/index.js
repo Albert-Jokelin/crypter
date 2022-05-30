@@ -5,7 +5,7 @@ import { useTheme } from '@nextui-org/react'
 import logo from "./.../../../../images/logo.png"
 
 export default function HeaderContainer() {
-  const { theme } = useTheme();
+  // const { theme } = useTheme();
 
   return (
     <Header.Container>

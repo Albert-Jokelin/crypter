@@ -1,5 +1,5 @@
 import React from "react";
-import { css, Container, Card, Text, Button, useTheme } from "@nextui-org/react";
+import { Container, Button } from "@nextui-org/react";
 
 
 export function Header({ children }) {
