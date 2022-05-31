@@ -1,7 +1,5 @@
 import React from "react"
 import { Header } from './styled/header'
-// import { useTheme } from '@nextui-org/react'
-//import logo from './images/logo.png'
 import logo from "./.../../../../images/logo.png"
 
 export default function HeaderContainer() {
