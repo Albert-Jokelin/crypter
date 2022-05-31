@@ -1,6 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 import video from ".../../../src/images/video.webm";
-import useVideoPlayer from ".../../../src/hooks/useVideoPlayer";
 
 export default function Sequence() {
   return (
