@@ -6,10 +6,11 @@ import Markets from "../components/markets";
 import Transact from "../components/transact"
 import Wallets from "../components/wallets"
 import Sequence from "../components/sequence";
+import { TransactionsProvider } from "../context/TransactionContext";
 
 export default function Home() {
   return (
-    <div>
+    <TransactionsProvider>
       <Header />
       <Sequence />
       <About />
@@ -17,7 +18,7 @@ export default function Home() {
       <Markets />
       <Wallets />
       <Footer />
-    </div>
+    </TransactionsProvider>
   )
 }
 
