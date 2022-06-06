@@ -33,7 +33,7 @@ const Welcome = () => {
         Zip. Zap. Zoom.
       </Text>
       <Text h4>
-        Send eth anytime, anywhere blazingly fast! ✈️🌏
+        Send eth anytime, anywhere blazingly fast!<span role="img"> ✈️🌏 </span>
       </Text>
       <Spacer y={1.0} />
       {!currentAccount && (
