@@ -14,7 +14,11 @@ Header.Container = function HeaderContainer({ children }) {
     margin: 0,
     padding: 0,
     background: "#111111",
-    maxWidth: "none"
+    maxWidth: "none",
+    position: "fixed",
+    top: 0,
+    width: "100%",
+    zIndex: 10
   }}>
     {children}
   </Container>);
@@ -29,7 +33,7 @@ Header.ButtonGroup = function HeaderButtonGroup({ children }) {
 Header.Button = function HeaderButton({ children }) {
 
   return (
-    <Button css={{ borderRadius: 0, backgroundColor: 'transparent', marginTop: "5px", marginBottom: "0px", marginRight: "10px", display: "flex", alignItems: "center"}}>
+    <Button css={{ borderRadius: 0, backgroundColor: 'transparent', marginTop: "5px", marginBottom: "0px", marginRight: "10px", display: "flex", alignItems: "center" }}>
       <h4 style={{
         background: "linear-gradient(112deg, #06B7DB -63.59%, #FF4ECD -20.3%, #0072F5 70.46%)",
         webkitBackgroundClip: "text",
