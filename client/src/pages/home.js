@@ -12,11 +12,21 @@ export default function Home() {
   return (
     <TransactionsProvider>
       <Header />
-      <Sequence />
-      <About />
-      <Transact />
-      <Markets />
-      <Wallets />
+      <div id='home'>
+        <Sequence />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="transact">
+        <Transact />
+      </div>
+      <div id="markets">
+        <Markets />
+      </div>
+      <div id="wallets">
+        <Wallets />
+      </div>
       <Footer />
     </TransactionsProvider>
   )

@@ -8,9 +8,18 @@ export default function HeaderContainer() {
   return (
     <Header.Container>
       <Header.ButtonGroup>
-        <Header.Button>About</Header.Button>
-        <Header.Button>Transact</Header.Button>
-        <Header.Button>
+        <Header.Button onPress={() =>{
+          const anchor = document.querySelector("#about")
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }}>About</Header.Button>
+        <Header.Button onClick={() =>{
+          const anchor = document.querySelector('#home')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }}>Transact</Header.Button>
+        <Header.Button onClick={() =>{
+          const anchor = document.querySelector('#home')
+          anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }}>
           <img src={logo} alt="logo" style={{
             maxWidth: "35px",
             paddingTop: "20px",
